@@ -5,18 +5,6 @@ SORT_TYPE = "rating"
 SOCKS_IP = ""
 SOCKS_PORT = 0
 HTML_SAVE_PATH = "/opt/share/www/releases.html"
-#HTML_SAVE_PATH = r"C:\Users\Yuri\releases.html"
-
-
-KINOPOISK_UUID = "6730382b7a236cd964264b49413ed00f" ### Генерируется автоматически в main, но можно в случае необходимости использовать константные значения.
-KINOPOISK_CLIENTID = "56decdcf6d4ad1bcaa1b3856" ### Генерируется автоматически в main, но можно в случае необходимости использовать константные значения.
-KINOPOISK_API_SALT = "IDATevHDS7"
-KINOPOISK_BASE_URL = "https://ma.kinopoisk.ru"
-KINOPOISK_API_RELEAESES = "/k/v1/films/releases/digital?digitalReleaseMonth={}&limit=1000&offset=0&uuid={}"
-KINOPOISK_BASE_URL2 = "https://ma.kinopoisk.ru/ios/5.0.0/"
-KINOPOISK_API_FILMDETAIL = "getKPFilmDetailView?still_limit=9&filmID={}&uuid={}"
-POSTER_URL = "https://st.kp.yandex.net/images/{}{}width=360"
-RUTOR_BASE_URL = "http://rutor.info/search/0/0/010/0/film%20"
 
 import hashlib
 import datetime
