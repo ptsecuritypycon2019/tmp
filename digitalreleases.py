@@ -1,14 +1,3 @@
-### DAYS — за сколько последних дней загружать цифровые релизы. По умолчанию 60.
-### SOCKS_IP и SOCKS_PORT — IP-адрес и порт SOCKS Proxy. Если они указаны, то будет импортирована библиотека (PySocks), а в функции rutorLinks запросы будет обрабатываться через указанный прокси-сервер. В digitalReleases и filmDetail запросы всегда идут без прокси.
-### SORT_TYPE — тип финальной сортировки. rating — сортировка по рейтингу, releaseDate — сортировка по дате цифрового релиза, torrentsDate — сортировка по дате появления торрента.
-### USE_MAGNET — использование Magnet-ссылок вместо ссылок на торрент-файлы.
-
-
-### digitalReleases(days) возвращает массив со словарями {filmID, releaseDate}, цифровые релизы за количество дней days.
-### filmDetail(filmID) возвращает словарь с информацией по фильму, соответствующему filmID.
-### rutorLinks(filmID) возвращает словарь с раздачами, соответствующими filmID.
-### saveHTML(movies, filePath) формирует HTML-файл по пути filePath из массива movies.
-### main объединяет всё вместе digitalReleases > rutorLinks + filmDetail > saveHTML.
 
 DAYS = 60
 USE_MAGNET = False
